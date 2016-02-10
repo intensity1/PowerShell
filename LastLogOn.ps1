@@ -1,0 +1,1 @@
+﻿Get-ADComputer -identity PCNAMEHERE -Properties * | FT Name, LastLogonDate -Autosize
