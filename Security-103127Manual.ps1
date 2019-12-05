@@ -1,0 +1,2 @@
+﻿New-Item -Path "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\" -Name "FEATURE_ENABLE_PRINT_INFO_DISCLOSURE_FIX" -Verbose
+New-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ENABLE_PRINT_INFO_DISCLOSURE_FIX" -Name "iexplore.exe" -Value ”1”  -PropertyType "String" -Verbose

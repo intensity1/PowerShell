@@ -1,0 +1,1 @@
+﻿Get-VM | Sort | Get-View -Property @("Name", "Config.GuestFullName", "Guest.GuestFullName") | Select -Property Name, @{N="Configured OS";E={$_.Config.GuestFullName}},  @{N="Running OS";E={$_.Guest.GuestFullName}} | export-csv C:\1\linux.csv

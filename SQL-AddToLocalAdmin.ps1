@@ -1,0 +1,2 @@
+﻿. .\Set-ADAccountasLocalAdministrator.ps1 -Computer 'ghg-ssk21d.gormanhealthgroup.com,ghg-ssk21p.gormanhealthgroup.com,ghg-ssk22p.gormanhealthgroup.com,ghg-ssk23p.gormanhealthgroup.com,ghg-ssk24p.gormanhealthgroup.com
+' -Trustee "GHG\SA_SCCM_App" -verbose

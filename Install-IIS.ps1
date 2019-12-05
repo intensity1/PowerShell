@@ -1,0 +1,1 @@
+﻿Install-WindowsFeature -Name Web-server -IncludeAllSubFeature -IncludeManagementTools -ComputerName RDTRICGLZDV01

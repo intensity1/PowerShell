@@ -1,0 +1,1 @@
+﻿Get-FileHash 'E:\MDT\Drivers\E7440-WIN7-A09-MJP2J (3).CAB' -Algorithm MD5

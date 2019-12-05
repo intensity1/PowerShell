@@ -1,0 +1,1 @@
+﻿Get-Folder "Roadnet DR"| get-vm RDT* | New-HardDisk -CapacityGB 100 -Data -thinprovisioned

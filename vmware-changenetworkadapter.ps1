@@ -1,0 +1,1 @@
+﻿get-folder "Roadnet DR" | get-vm |Set-networkAdapter -NetworkName "new_server_110"

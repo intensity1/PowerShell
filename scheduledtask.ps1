@@ -1,0 +1,1 @@
+﻿powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File YourScript.ps1

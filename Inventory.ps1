@@ -1,0 +1,1 @@
+﻿Get-ADComputer -filter * | Where-Object -Property Name -Like "*site01*" | Select Name |Export-Csv C:\1\siteservers.csv

@@ -1,0 +1,1 @@
+﻿Connect-VIServer -server mia1vc01.uspgi.com,sun1vcenter01.uspgi.com -Username "uspgi\jesposito_admin" -Password "St44radR#"

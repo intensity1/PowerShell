@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName flmir-dp01.swsad.com -FilePath C:\1\enableRDP.ps1 -cred swsad\jespositosws
